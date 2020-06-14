@@ -1,0 +1,203 @@
+.Main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  overflow: auto;
+  background-image: url("/img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.Header-background {
+  overflow: auto;
+  width: 1440px;
+  height: 80px;
+  background-color: #292c32;
+}
+
+.Oval {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #357df7;
+  margin: 20px auto;
+}
+
+.search {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  opacity: 0.9;
+  display: block;
+  float: right;
+  top: 28px;
+  right: 173px;
+}
+
+.Group-3 {
+  position: absolute;
+  bottom: 0;
+  width: 1440px;
+  height: 194px;
+  object-fit: contain;
+  margin: 0 auto;
+  overflow: auto;
+  background-image: url("/img/group-3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.Social-group {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin: 32px auto 0;
+}
+
+.Social-group-item {
+   width: 100px;
+   height: 40px;
+   float: left;
+ }
+
+.Twitter-icon {
+  background-image: url("/img/twitter-square.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+}
+
+.Linkedin-icon {
+  background-image: url("/img/linkedin-square.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Instagram-icon {
+  background-image: url("/img/instagram.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+}
+
+.Form-container {
+  position: relative;
+  width: 345px;
+  margin: 0 auto;
+}
+
+.Form-title-container {
+  width: 229px;
+  height: 39px;
+  margin: 40px auto 0;
+  font-family: 'Gotham Book';
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.Name-input-container {
+  margin-top: 40px;
+}
+
+.Name-input-label {
+  width: 70px;
+  height: 21px;
+  opacity: 0.87;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: white;
+}
+
+.Name-input, .Phone-input, .Email-input {
+  width: 343px;
+  height: 40px;
+  margin-top: 8px;
+  padding: 0 0 0 5px;
+  opacity: 0.6;
+  border-radius: 8px;
+  border: solid 1px rgba(255, 255, 255, 0.6);
+  background-color : black;
+  outline: none;
+  color: white;
+}
+
+.Msg-input {
+  width: 343px;
+  height: 178px;
+  margin-top: 8px;
+  padding: 0;
+  opacity: 0.6;
+  border-radius: 8px;
+  border: solid 1px rgba(255, 255, 255, 0.6);
+  background-color : black;
+  outline: none;
+  color: white;
+}
+
+.Phone-input-container, .Email-input-container, .Msg-input-container{
+  margin-top: 24px;
+}
+
+.Phone-input-label, .Email-input-label , .Msg-input-label{
+  width: 70px;
+  height: 21px;
+  opacity: 0.87;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: white;
+}
+
+.Form-submit {
+  width: 345px;
+  height: 40px;
+  margin-top: 32px;
+  background-image: url("/img/default.png");
+  background-repeat: no-repeat;
+  border: solid 1px #5b9af8;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.Form-submit-disabled {
+  width: 345px;
+  height: 40px;
+  margin-top: 32px;
+  background-image: url("/img/default.png");
+  background-repeat: no-repeat;
+  border: solid 1px #5b9af8;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.Form-submit:active {
+  transform: translateY(2px);
+}
+
+.Error-msg {
+  color: red;
+  margin-left: 8px;
+}
